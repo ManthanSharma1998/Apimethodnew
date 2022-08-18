@@ -8,7 +8,7 @@ import axios from 'axios';
 function Comment(props) {
     const [comment, setcomment] = useState([]);
     const [loading, setloading] = useState(false)
-    const {id} = useParams();
+    // const {id} = useParams();
 
     useEffect(() => {
         fetchData();
